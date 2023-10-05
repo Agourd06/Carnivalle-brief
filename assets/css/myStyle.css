@@ -5,6 +5,7 @@
 }
 
 .featured-cars {
+  background-color: rgba(255, 255, 255, 0.704);
   padding-top: 135px;
 }
 
@@ -16,6 +17,7 @@
 
 }
 
+
 .brand-car img {
 
   max-height: 120px;
@@ -26,6 +28,10 @@
 
 .banner {
   margin-top: 100px;
+}
+.banner img{
+  max-height:250px ;
+  max-width: 300px;
 }
 
 .contact-infos label,
@@ -39,6 +45,7 @@
   height: auto;
   /* margin-left: 100vh; */
   padding-bottom: 10px;
+  
 
 }
 
@@ -51,13 +58,21 @@
 .banner {
   height: auto;
   padding-bottom: 50px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact-us {
+  position: relative;
+  background: url(../images/welcome-hero/super-cian.jpg)no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 
   padding-top: 10px;
-  margin-top: 150px;
+  margin-top: 100px;
   min-height: 70vh;
   display: flex;
   justify-content: space-evenly;
@@ -75,4 +90,17 @@
   border: 70px;
   padding-right: 45px;
   border-radius: 3px;
+}
+::placeholder{
+  color: white;
+}
+
+@media screen and (max-width: 670px) {
+  .contact-us {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
