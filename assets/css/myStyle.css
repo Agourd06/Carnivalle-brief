@@ -1,25 +1,78 @@
-.header-area-black{
-    background-color: black;
-    
-    position: fixed;
+.header-area-black {
+  background-color: black;
+  height: 100px;
+  position: fixed;
 }
-.featured-cars{
-    padding-top: 135px ;
+
+.featured-cars {
+  padding-top: 135px;
 }
 
 .navbar-header {
-    display: flex; 
-    align-items: center; 
-    padding-bottom: 30px;
- 
-   
-  }
-  
-  .navbar-brand img {
-    /* Add any additional styling for your image here */
-   
-    max-height: 80px; /* Ensure the image doesn't exceed the height of the navbar-header */
-    max-width: 200px; /* Ensure the image doesn't exceed the width of the navbar-header */
-  }
-  
-  
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+
+
+}
+
+.brand-car img {
+
+  max-height: 120px;
+  max-width: 200px;
+  padding-bottom: 20px;
+
+}
+
+.banner {
+  margin-top: 100px;
+}
+
+.contact-infos label,
+.contact-infos input[type="text"],
+.contact-infos input[type="email"],
+.contact-infos input[type="tel"],
+.contact-infos textarea {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  margin-right: 10px;
+  height: auto;
+  /* margin-left: 100vh; */
+  padding-bottom: 10px;
+
+}
+
+
+.contact-infos button {
+  display: block;
+
+}
+
+.banner {
+  height: auto;
+  padding-bottom: 50px;
+
+}
+
+.contact-us {
+
+  padding-top: 10px;
+  margin-top: 150px;
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submit-button {
+  color: aliceblue;
+  padding-left: 50px;
+}
+
+.submit-touch {
+  margin-top: 15px;
+  background-color: #4e4ffa;
+  display: inline-block;
+  border: 70px;
+  padding-right: 45px;
+  border-radius: 3px;
+}
