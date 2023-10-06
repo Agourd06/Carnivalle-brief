@@ -56,7 +56,7 @@ a:active,
 a:focus {
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
+    color: #696262;
     font-size: 20px;
     padding: 0;
     font-weight: 500;
@@ -107,7 +107,7 @@ input,
 textarea,
 button,
 .form-control {
-    background-color: #00000051;
+    background-color: #000000c7;
     outline: 0 !important;
 }
 
@@ -161,7 +161,7 @@ body {
 }
 
 .section-header p {
-    color: #444a57;
+    color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
@@ -466,6 +466,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
+    background: #000000cc;
 }
 
 .single-service-icon {
@@ -534,8 +535,8 @@ nav.navbar.bootsnav .navbar-toggle i {
         6. New-cars
 --------------------------------------*/
 .new-cars {
-    background: #f8f9fb;
-    padding: 112px 0 120px;
+    background: #242c3b;
+    padding: 190px 0 120px;
 }
 
 .new-cars-content {
@@ -664,7 +665,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .clients-say {
     padding: 115px 0 80px;
-    background: #f8f9fb;
+    background: #242c3b;
 }
 
 /*single-testimonial-box */
@@ -701,7 +702,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .testimonial-person h2 a,
 .testimonial-person h4 {
     font-size: 16px;
-    color: #5e6778;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -715,7 +716,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 /* testimonial-comment */
 .testimonial-comment p {
     font-size: 16px;
-    color: #5e6778;
+    color: #ffffff;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -757,10 +758,12 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .brand {
     padding: 120px 0;
+    background-color: #242c3b;
 }
 
 .brand-area {
     position: relative;
+    background-color: #242c3b;
 }
 
 .brand-area .item {
