@@ -26,8 +26,9 @@
 }
 /* taille contact us logo */
 .banner img{
-  max-height:250px ;
-  max-width: 380px;
+  max-height:300px ;
+  max-width: 400px;
+  margin-bottom: -60px;
 }
 
 /* inputs positions */
