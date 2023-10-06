@@ -10,13 +10,7 @@
   padding-top: 135px;
 }
 
-/* .navbar-header {
-  display: flex;
-  align-items: center;
-  padding-bottom: 30px;
 
-
-} */
 
 /* taille logo */
 .brand-car img {
@@ -32,8 +26,8 @@
 }
 /* taille contact us logo */
 .banner img{
-  height:100% ;
-  width: 40vh;
+  max-height:250px ;
+  max-width: 380px;
 }
 
 /* inputs positions */
